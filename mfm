@@ -1,0 +1,7 @@
+#!/bin/sh
+clear
+cmd=""
+while [[ cmd != "exit" ]]; do
+   pwd; echo; ls -l; echo
+   printf "$ "; read cmd && $cmd
+done
