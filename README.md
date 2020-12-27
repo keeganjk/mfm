@@ -1,0 +1,2 @@
+# mfm
+Minimal File Manager
